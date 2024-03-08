@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS users_x_roles (
+  id_users INTEGER NOT NULL,
+  id_roles INTEGER NOT NULL,
+  PRIMARY KEY (id_users, id_roles),
+  FOREIGN KEY (id_users) REFERENCES users (id) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  FOREIGN KEY (id_roles) REFERENCES roles (id) ON DELETE NO ACTION ON UPDATE NO ACTION
+);

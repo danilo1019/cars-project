@@ -1,0 +1,17 @@
+
+
+## Users
+
+Key           Description
+VIEW_USER  
+UPDATE_USER
+DELETE_USER
+ADD_USER
+
+## Permissions
+VIEW_
+UPDATE_
+DELETE_
+
+## Cars
+
